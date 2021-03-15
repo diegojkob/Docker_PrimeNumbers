@@ -32,14 +32,17 @@ function isPrimeNumber(number)
 }
 
 
-if(!isValidNumber(number)) process.exit(-1);
-
-let primeNumbers = [];
-
-for(let i= 2; i <= number; i++)
+if(isValidNumber(number))
 {
-	if(isPrimeNumber(i))
-		primeNumbers.push(i);
-}
+  let primeNumbers = [];
+
+  for(let i= 2; i <= number; i++)
+  {
+    if(isPrimeNumber(i))
+      primeNumbers.push(i);
+  }
 
 console.log("Los numeros primos son:\n" + primeNumbers);
+
+}
+
