@@ -42,7 +42,6 @@ if(isValidNumber(number))
       primeNumbers.push(i);
   }
 
-console.log("Los numeros primos son:\n" + primeNumbers);
-
+  console.log("Los numeros primos son:\n" + primeNumbers);
 }
 
