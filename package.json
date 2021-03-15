@@ -1,0 +1,16 @@
+{
+  "name": "docker_nodejs_app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Node.js on Docker",
+  "author": "Diego Kobzistyj <diegojkob@gmail.com>",
+  "main": "primeNumbers.js",
+  "scripts": {
+    "start": "node primeNumbers.js"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "keywords": [],
+  "license": "ISC"
+}
